@@ -1,0 +1,25 @@
+.subheading-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.subheading-top-title {
+  margin-left: 2%;
+  font-size: 21px;
+  color: #ccc;
+}
+
+.subheading-top-btn {
+  margin-right: 2%;
+}
+
+.subheading-top-btn > button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+}

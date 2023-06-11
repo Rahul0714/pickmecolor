@@ -1,0 +1,32 @@
+.color-palette {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.color-palette-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.color-palette-main {
+  height: 45vh;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.color-palette-main:hover {
+  transform: scale(1.1);
+}
+
+.color-palette-name {
+  margin: auto;
+  font-weight: bold;
+  font-size: 21px;
+  color: #ccc;
+}
