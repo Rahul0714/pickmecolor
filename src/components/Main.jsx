@@ -10,6 +10,7 @@ import {
 } from "./data/Colors";
 
 function Main() {
+  console.log(redVariations);
   return (
     <>
       <div className="color-palette-main-container">

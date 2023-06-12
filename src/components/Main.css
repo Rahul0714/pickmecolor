@@ -18,9 +18,13 @@
 
 .subheading-top-btn > button {
   width: 100%;
-  padding: 10px;
-  border-radius: 7px;
+  padding: 12px 21px;
+  border-radius: 14px;
   border: none;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
+  color: #cccccc;
+  background-image: linear-gradient(to right, #3944f7, #1c8d73);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }

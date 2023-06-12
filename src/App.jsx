@@ -1,13 +1,16 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Solid from "./components/Solid";
+import Gradients from "./components/Gradients";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Solid />} />
+        <Route path="/gradients" element={<Gradients />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

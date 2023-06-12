@@ -9,6 +9,8 @@ function ColorPalette({ colors }) {
   }
 
   const paletteColors = [...colors];
+  console.log(paletteColors);
+
   return (
     <>
       <div className="color-palette">

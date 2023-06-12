@@ -1,0 +1,57 @@
+.gradients-container {
+  /* margin-left: 2%; */
+  margin-top: 2%;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.single-gradient {
+  width: 15%;
+  height: 70vh;
+  margin: 2%;
+  margin-bottom: 10vh;
+}
+
+.gradient-firstcolor {
+  width: 100%;
+  height: 10vh;
+  border-radius: 7px;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.gradient-firstcolor:hover {
+  transform: scale(1.1);
+}
+
+.linear-gradient {
+  height: 40vh;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.linear-gradient:hover {
+  transform: scale(1.1);
+}
+
+.gradient-secondcolor {
+  margin-top: 2vh;
+  height: 10vh;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.gradient-secondcolor:hover {
+  transform: scale(1.1);
+}
+
+.transparent {
+  font-size: 0px;
+}
