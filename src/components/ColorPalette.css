@@ -1,7 +1,8 @@
 .color-palette {
-  width: 100%;
   display: flex;
   margin-bottom: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 
 .color-palette-container {
@@ -12,7 +13,7 @@
 .color-palette-main {
   height: 45vh;
   margin: auto;
-  width: 80%;
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;

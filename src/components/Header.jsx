@@ -8,7 +8,7 @@ function Header() {
           <div className="header-about">About</div>
         </div>
         <div className="header-instruction">
-          <div className="header-title">Click Color to Copy</div>
+          <div className="header-title">Click to Copy</div>
           <div className="header-subtitle">Always perfect color</div>
         </div>
       </div>
