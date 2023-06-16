@@ -28,3 +28,10 @@
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
 }
+
+/* 
+@media screen and (min-width: 992px) {
+  color-palette-main-container {
+    width: 100%;
+  }
+} */

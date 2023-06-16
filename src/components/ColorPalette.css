@@ -5,24 +5,27 @@
   padding-right: 3%;
   padding-left: 3%;
   flex-wrap: wrap;
+  /* background-color: aliceblue; */
 }
 
 .color-palette-container {
   margin-top: 20px;
   width: 16%;
   margin-bottom: 14px;
+  /* background-color: antiquewhite; */
 }
 
 .color-palette-main {
   cursor: pointer;
   min-height: 45vh;
   margin: auto;
-  width: 85%;
+  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 14px;
   transition: all 0.2s ease-in-out;
+  /* background-color: blue; */
 }
 
 .color-palette-main:hover {
@@ -34,4 +37,90 @@
   font-weight: bold;
   font-size: 21px;
   color: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .color-palette {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 5%;
+  }
+  .color-palette-container {
+    width: 50%;
+  }
+  .color-palette-main {
+    min-height: 26vh;
+    width: 120px;
+  }
+  .color-palette-name {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .color-palette {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .color-palette-container {
+    width: 30%;
+  }
+  .color-palette-main {
+    min-height: 33vh;
+    width: 135px;
+  }
+  .color-palette-name {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .color-palette {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0 !important;
+  }
+  .color-palette-container {
+    width: 25%;
+  }
+  .color-palette-main {
+    min-height: 35vh;
+    width: 145px;
+    width: 80%;
+  }
+  .color-palette-name {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .color-palette {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0 !important;
+  }
+  .color-palette-container {
+    /* width: 13%; */
+    /* margin: 10px 10px; */
+    margin: auto;
+  }
+  .color-palette-main {
+    min-height: 40vh;
+    width: 80%;
+    margin: 30px 0;
+  }
+  .color-palette-name {
+    font-size: 17px;
+    font-weight: bold;
+  }
 }
